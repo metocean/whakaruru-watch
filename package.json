@@ -1,0 +1,24 @@
+{
+  "name": "whakaruru-watch",
+  "version": "1.0.0",
+  "description": "Zero downtime automatically reloading http server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metocean/whakaruru-watch.git"
+  },
+  "author": "Thomas Coats <t.coats@metocean.co.nz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metocean/whakaruru-watch/issues"
+  },
+  "homepage": "https://github.com/metocean/whakaruru-watch#readme",
+  "dependencies": {
+    "chokidar": "1.4.0",
+    "debounce": "1.0.0",
+    "whakaruru": "1.0.2"
+  }
+}
